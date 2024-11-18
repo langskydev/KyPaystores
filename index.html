@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/icon/premium.png" type="image/x-icon">
+    <title>Landing Page || KyPayStore</title>
+    <link rel="stylesheet" href="assets/style/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <div class="content" style="display: none;">
+        <header class="header">
+            <a href="" class="logo">KyPayStore</a>
+    
+            <!-- Menu Burger -->
+            <button class="menu-toggle">
+                <i class="bx bx-menu"></i>
+            </button>
+    
+            <nav class="navbar">
+                <a href="#home" style="--i:1" class="active">Home</a>
+                <a href="#about" style="--i:2">About</a>
+                <div class="dropdown">
+                    <button class="dropbtn" style="--i:3">Features</button>
+                    <div class="dropdown-content">
+                        <a href="#pricing" style="--i:4">Pricing</a>
+                        <a href="#features" style="--i:5">Keunggulan</a>
+                        <a href="#showcase" style="--i:6">Showcase</a>
+                        <a href="#testimonials" style="--i:7">Testimonials</a>
+                    </div>
+                </div>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+    
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, Welcome to KyPayStore</h3>
+                <h1>happy shopping</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+                <p>I provide premium app services and game top-ups with fast <br> secure transactions at competitive prices
+                </p>
+                <div class="home-sci">
+                    <a href="https://chat.whatsapp.com/JFsd8KDn6WY5Mx1peMwBt5" style="--i:9"><i class='bx bx-group'></i></a>
+                    <a href="https://wa.me/6285714608649" style="--i:10"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.instagram.com/kypay_store/" style="--i:11"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://t.me/Langskya" style="--i:12"><i class='bx bxl-telegram'></i></a>
+                </div>
+                <a href="#pricing" class="btn-box">buy now</a>
+            </div>
+        </section>
+    
+        <section class="about" id="about">
+            <div class="about-img" data-aos="fade-right">
+                <img src="assets/img/logo/logo-removebg-preview.png" alt="KyPay Store">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <h2>About<span>Me</span></h2>
+                <h4>Provider of Premium Technology Services!</h4>
+                <p>
+                    Welcome to our premium technology services. We deliver top-notch, innovative, and tailored digital
+                    solutions to meet your business needs. Trust us to elevate your business with cutting-edge technology
+                    and exceptional service quality.
+                </p>
+                <a href="" class="btn-box">More About</a>
+            </div>
+        </section>
+    
+        <section class="pricing" id="pricing" data-aos="fade-up">
+            <h2 class="section-title">Feature Pricing</h2>
+            <div class="tab-container">
+                <!-- Tab Navigation -->
+                <div class="tab-header" data-aos="fade-down">
+                    <button class="tab-btn active" data-target="#netflix">Netflix Premium</button>
+                    <button class="tab-btn" data-target="#canva">Canva Pro</button>
+                    <button class="tab-btn" data-target="#getcontact">Get Contact Premium</button>
+                </div>
+    
+                <!-- Tab Content -->
+                <div class="tab-content active" id="netflix" data-aos="fade-right">
+                    <h3>Netflix Premium</h3>
+                    <ul>
+                        <li>Sharing 1P1U:
+                            <ul>
+                                <li>1 Bulan: Rp. 24.000</li>
+                                <li>2 Bulan: Rp. 47.000</li>
+                                <li>3 Bulan: Rp. 67.000 <span>(+3rb Req PIN & Nama Profil)</span></li>
+                            </ul>
+                        </li>
+                        <li>Sharing 1P2U:
+                            <ul>
+                                <li>1 Bulan: Rp. 15.000</li>
+                                <li>2 Bulan: Rp. 27.000</li>
+                                <li>3 Bulan: Rp. 40.000</li>
+                            </ul>
+                        </li>
+                        <li>Private: 1 Bulan: Rp. 105.000</li>
+                        <li>Crack: Private: Rp. 25.000 <span>(Durasi Random, Garansi Login)</span></li>
+                    </ul>
+                </div>
+    
+                <div class="tab-content" id="canva" data-aos="fade-left">
+                    <h3>Canva Pro</h3>
+                    <ul>
+                        <li>Pro Member:
+                            <ul>
+                                <li>1 Bulan: Rp. 1.500</li>
+                                <li>3 Bulan: Rp. 7.000</li>
+                                <li>1 Tahun: Rp. 10.000</li>
+                            </ul>
+                        </li>
+                        <li>Pro Admin: 1 Bulan: Rp. 7.000 (Full Garansi)</li>
+                        <li>Pro Owner: 1 Bulan: Rp. 8.000 (Promo Full Garansi)</li>
+                        <li>EDU Lifetime: Member: Rp. 21.000 (Bergaransi)</li>
+                    </ul>
+                </div>
+    
+                <div class="tab-content" id="getcontact" data-aos="fade-up">
+                    <h3>Get Contact Premium</h3>
+                    <ul>
+                        <li>1 Bulan: Rp. 16.000</li>
+                        <li>Promo: Rp. 8.000</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section class="features" id="features">
+            <h2 class="section-title" data-aos="zoom-in">Keunggulan Kami</h2>
+            <div class="features-container">
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="100">
+                    <i class="bx bx-shield feature-icon"></i>
+                    <h3>Keamanan Tinggi</h3>
+                    <p>Transaksi aman dengan sistem perlindungan terbaik untuk semua pengguna.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="200">
+                    <i class="bx bx-timer feature-icon"></i>
+                    <h3>Proses Cepat</h3>
+                    <p>Top-up dan layanan lainnya diproses dalam waktu kurang dari 5 menit.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="300">
+                    <i class="bx bx-dollar-circle feature-icon"></i>
+                    <h3>Harga Kompetitif</h3>
+                    <p>Dapatkan layanan premium dengan harga yang ramah di kantong.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="400">
+                    <i class="bx bx-star feature-icon"></i>
+                    <h3>Garansi Full</h3>
+                    <p>Jaminan perbaikan maksimal dalam waktu 1x24 jam setelah transaksi.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="500">
+                    <i class="bx bx-devices feature-icon"></i>
+                    <h3>Support Semua Perangkat</h3>
+                    <p>Produk dan layanan kami kompatibel dengan semua perangkat modern.</p>
+                </div>
+                <div class="feature-item" data-aos="fade-up" data-aos-delay="600">
+                    <i class="bx bx-smile feature-icon"></i>
+                    <h3>Pelayanan Ramah</h3>
+                    <p>Tim kami siap membantu Anda dengan sepenuh hati kapan pun diperlukan.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="showcase" id="showcase">
+            <h2 class="section-title" data-aos="zoom-in">Showcase Produk</h2>
+            <div class="showcase-container">
+                <!-- Item Netflix -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="assets/img/showcase/n.png" alt="Netflix">
+                    <div class="showcase-info">
+                        <h3>Netflix</h3>
+                        <p>Layanan streaming premium dengan harga terbaik.</p>
+                    </div>
+                </div>
+                <!-- Item Canva -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="assets/img/showcase/c.png" alt="Canva">
+                    <div class="showcase-info">
+                        <h3>Canva</h3>
+                        <p>Keanggotaan Canva Pro untuk desain grafis profesional.</p>
+                    </div>
+                </div>
+                <!-- Item GetContact -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/img/showcase/g.png" alt="GetContact">
+                    <div class="showcase-info">
+                        <h3>GetContact</h3>
+                        <p>Langganan GetContact Premium untuk pelacakan tag dan keamanan.</p>
+                    </div>
+                </div>
+                <!-- Item Spotify -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="assets/img/showcase/s.png" alt="Spotify">
+                    <div class="showcase-info">
+                        <h3>Spotify</h3>
+                        <p>Akses Spotify Premium untuk pengalaman mendengarkan tanpa batas.</p>
+                    </div>
+                </div>
+                <!-- Item YouTube -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="500">
+                    <img src="assets/img/showcase/y.png" alt="YouTube">
+                    <div class="showcase-info">
+                        <h3>YouTube</h3>
+                        <p>Langganan YouTube Premium tanpa iklan dan unduhan offline.</p>
+                    </div>
+                </div>
+                <!-- Item Viu -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="600">
+                    <img src="assets/img/showcase/viu.png" alt="Viu">
+                    <div class="showcase-info">
+                        <h3>Viu</h3>
+                        <p>Streaming drama dan film Asia terbaik dengan Viu Premium.</p>
+                    </div>
+                </div>
+                <!-- Item Vidio -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="700">
+                    <img src="assets/img/showcase/vidio.png" alt="Vidio">
+                    <div class="showcase-info">
+                        <h3>Vidio</h3>
+                        <p>Akses konten lokal dan olahraga eksklusif di Vidio Premium.</p>
+                    </div>
+                </div>
+                <!-- Item Pulsa -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="800">
+                    <img src="assets/img/showcase/p.png" alt="Pulsa">
+                    <div class="showcase-info">
+                        <h3>Pulsa</h3>
+                        <p>Isi ulang pulsa dengan transaksi cepat dan aman.</p>
+                    </div>
+                </div>
+                <!-- Item Paket Data -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="900">
+                    <img src="assets/img/showcase/paket data.png" alt="Paket Data">
+                    <div class="showcase-info">
+                        <h3>Paket Data</h3>
+                        <p>Pilihan paket data internet dengan harga bersaing.</p>
+                    </div>
+                </div>
+                <!-- Item DM Mobile Legend -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="1000">
+                    <img src="assets/img/showcase/ml.png" alt="DM Mobile Legend">
+                    <div class="showcase-info">
+                        <h3>DM Mobile Legend</h3>
+                        <p>Top-up diamond MLBB cepat dan mudah.</p>
+                    </div>
+                </div>
+                <!-- Item DM Free Fire -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="1100">
+                    <img src="assets/img/showcase/ff.png" alt="DM Free Fire">
+                    <div class="showcase-info">
+                        <h3>DM Free Fire</h3>
+                        <p>Top-up diamond Free Fire dengan harga terjangkau.</p>
+                    </div>
+                </div>
+                <!-- Item Joki Tugas -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="1200">
+                    <img src="assets/img/showcase/tugs.png" alt="Joki Tugas">
+                    <div class="showcase-info">
+                        <h3>Joki Tugas</h3>
+                        <p>Bantuan profesional untuk menyelesaikan tugas Anda.</p>
+                    </div>
+                </div>
+                <!-- Item Jasa Landing Page -->
+                <div class="showcase-item" data-aos="fade-up" data-aos-delay="1300">
+                    <img src="assets/img/showcase/joki.png" alt="Jasa Landing Page">
+                    <div class="showcase-info">
+                        <h3>Jasa Landing Page</h3>
+                        <p>Layanan pembuatan landing page profesional untuk bisnis Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="testimonials" id="testimonials">
+            <h2 class="section-title" data-aos="fade-up">Bukti Transaksi</h2>
+            <div class="testimonials-container">
+                <!-- Bukti Transaksi 1 -->
+                <div class="testimonial-item" data-aos="fade-right" data-aos-delay="100">
+                    <img src="assets/img/testi/1.jfif" alt="Bukti Transaksi 1">
+                    <p>Transaksi sukses: Netflix Premium 1p1u 3 bulan</p>
+                </div>
+                <!-- Bukti Transaksi 2 -->
+                <div class="testimonial-item" data-aos="fade-right" data-aos-delay="200">
+                    <img src="assets/img/testi/2.jfif" alt="Bukti Transaksi 2">
+                    <p>Transaksi sukses: Canva Pro 1 Tahun</p>
+                </div>
+                <!-- Bukti Transaksi 3 -->
+                <div class="testimonial-item" data-aos="fade-right" data-aos-delay="300">
+                    <img src="assets/img/testi/3.jfif" alt="Bukti Transaksi 3">
+                    <p>Transaksi sukses: Followers Instagram</p>
+                </div>
+            </div>
+        </section>
+    
+    
+    
+        <section class="contact" id="contact">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="contact-container">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="bx bx-envelope"></i> Email: glngrizky685@gmail.com</p>
+                    <p><i class="bx bx-phone"></i> Telepon: 085810219251</p>
+                    <p><i class="bx bxl-whatsapp"></i> WhatsApp: 085714608649</p>
+                    <p><i class="bx bx-map"></i> Alamat: Jl. poncol atas, Jakarta, Indonesia</p>
+                </div>
+    
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form action="https://formspree.io/f/mnnqznzk" method="post">
+                        <input type="text" name="name" placeholder="Nama Anda" required>
+                        <input type="email" name="email" placeholder="Email Anda" required>
+                        <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+                        <button type="submit" class="btn-box">Kirim</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Footer About -->
+                <div class="footer-about">
+                    <h3>Tentang KyPayStore</h3>
+                    <p>Kami menyediakan layanan premium untuk aplikasi, game, dan kebutuhan digital lainnya dengan harga
+                        bersaing dan proses yang cepat.</p>
+                </div>
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <h3>Tautan Penting</h3>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#features">Keunggulan</a></li>
+                        <li><a href="#pricing">Harga</a></li>
+                        <li><a href="#showcase">Showcase</a></li>
+                        <li><a href="#testimonials">Testimoni</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Contact -->
+                <div class="footer-contact">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="bx bx-envelope"></i> Email: glngrizky685@gmail.com</p>
+                    <p><i class="bx bx-phone"></i> Telepon: 085810219251</p>
+                    <p><i class="bx bxl-whatsapp"></i> WhatsApp: 085714608649</p>
+                    <p><i class="bx bx-map"></i> Alamat: Jl. poncol atas, Jakarta, Indonesia</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KyPayStore. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/kypay_store/" title="Instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://wa.me/6285714608649" title="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="https://t.me/Langskya" title="Telegram"><i class="bx bxl-telegram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="assets/style/js/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        offset: 100,
+        once: false, // Animasi bisa diputar ulang
+        mirror: false, // Matikan animasi saat scroll ke atas
+    });
+
+    // Hanya aktifkan animasi jika scroll ke bawah
+    window.addEventListener("scroll", () => {
+        if (document.body.getAttribute("data-scroll-direction") === "down") {
+            AOS.refresh(); // Segarkan AOS untuk memutar ulang animasi
+        }
+    });
+
+
+</script>
+
+</html>
